@@ -1,73 +1,98 @@
-*{
+html,body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #666;
 }
-
-.container{
-    background-color: rgb(103, 103, 226);
-    min-height: 100vh;
-    border: 10px solid ;
-}
-.content{
-    max-width: 900px;
-    margin: 50px auto;
-}
-.image_continer,img{
-    width: 300px;
-    height: 320px;
-}
-img{
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-   border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    height: 300px;
-    width: 300px;
+.pimg_1{
+    background-image: url(image1.png);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.top_section{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    align-items: flex-end;
-    text-align: justify;
+.pimg_2{
+    background-image: url(image2.png);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.top_section,h1{
-    font-size: 35px;
-    font-weight: bold;
+.pimg_3{
+    background-image: url(image3.png);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext_1{
+    padding-top: 285px;
+}
+.ptext_2{
+    padding-top: 180px;
+}
+.ptext_3{
+    padding-top: 160px;
+}
+.textbg_1{
+    font-weight:lighter;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 460px;
     text-transform: uppercase;
+    background-color: #313534;
 }
-.top_section,h4{
-    text-align: end;
-    font-size: 25px;
+.textbg_2{
+    font-weight:lighter;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 460px;
+    text-transform: uppercase;
+    background-color: #313534;
 }
-.about_section,p{
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}    
-.about_section,h2{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.textbg_3{
+    font-weight:lighter;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 330px;
+    text-transform: uppercase;
+    background-color: #313534;
 }
-.biography_section{
-    margin-right: 50px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.text_section_1{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.text_section_2{
+    background-color: #282e34;
+    color: #ddd;
+}
+.text_section_3{
+    background-color: #282e34;
+    color: #ddd;
+}
+.text_1{
+    padding: 50px 80px;
+    text-align: center;
+}
+.text_2{
+    padding: 50px 80px;
+    text-align: center;
+}
+.text_3{
+    padding: 50px 80px;
+    text-align: center;
 }
 
-.biography_section,ul{
-    margin-left: 50px;
-}
-.biography_section,li{
-    margin-left: 50px;
-    margin: 10px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-footer{
-    text-align: end;
-}
-#p1{
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
+
